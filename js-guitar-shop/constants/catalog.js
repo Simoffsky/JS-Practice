@@ -26,4 +26,19 @@ const CATALOG = [
         img:'https://www.muztorg.ru/files/4v8/ias/p88/w4k/sw4/w8w/cwo/g0c/c/4v8iasp88w4ksw4w8wcwog0cc.jpg',
         price: 20890,
     },
+
+    {
+        id: 'el5',
+        name:'FENDER SQUIER BULLET MUSTANG HH Black',
+        img:'https://www.muztorg.ru/files/ac4/5dp/bu0/ywo/o0o/wso/4sc/08g/s/ac45dpbu0ywoo0owso4sc08gs.jpg',
+        price: 29700,
+    },
+
+    {
+        id: 'el6',
+        name:'JACKSON JS1X RR Minion Satin Black',
+        img:'https://www.muztorg.ru/files/ybl/jna/pmy/uos/ocg/sw0/0ss/oo/ybljnapmyuosocgsw00ssoo.jpg',
+        price: 41000,
+    },
+
 ];
