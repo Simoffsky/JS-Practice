@@ -15,6 +15,9 @@
     
 }
 
+:root {
+    --animation-time: 2s; 
+  }
 #cactus {
     width: 30px;
     height: 50px;
@@ -23,7 +26,7 @@
     position:relative;
     top:99px;
     left:99%;
-    animation: cactusMov 0.3s infinite linear;
+    animation: cactusMov var(--animation-time) ease alternate infinite;
 }
 
 @keyframes cactusMov {
