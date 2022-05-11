@@ -16,8 +16,8 @@ let myTime = 0;
 let isAlive = setInterval( function() {
     let = dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
     let = cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
-    var time = Math.random(50);
-    cactus.style.setProperty('--animation-time', time+"s" )
+    
+    
     if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
         myTime = 0;
     }
@@ -28,4 +28,6 @@ let isAlive = setInterval( function() {
 let timerCount = setInterval( function() {
     timer.innerHTML = `<h1>${myTime}</h1>`;
     myTime+=1;
+    var time = Math.random() * (3 - 0.1);
+    cactus.style.setProperty('--animation-time', time+"s" )
  },1000);
