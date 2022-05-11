@@ -30,4 +30,6 @@ let timerCount = setInterval( function() {
     myTime+=1;
     var time = Math.random() * (3 - 0.1);
     cactus.style.setProperty('--animation-time', time+"s" )
+    if (myTime === 100)
+        alert("Winner winner chicken dinner!");
  },1000);
